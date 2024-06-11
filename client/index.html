@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paul Kundas Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <img src="profile-photo.jpg" alt="Profile Photo" class="profile-photo">
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="resume.pdf" download>Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="about-me">
+                <img src="profile-photo.jpg" alt="Profile Photo">
+                <p>I am a dedicated individual with a passion for technology and a strong academic background...</p>
+            </div>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div id="project-gallery">
+                <div class="project-item">
+                    <img src="weather.png" alt="Weather App">
+                    <h3>Weather App</h3>
+                    <p>A Weather App that provides real-time weather updates and forecasts for your location.</p>
+                </div>
+                <div class="project-item">
+                    <img src="project2.png" alt="To-Do List">
+                    <h3>To-Do List</h3>
+                    <p>A To-Do List application that helps you manage your daily tasks efficiently.</p>
+                </div>
+                <div class="project-item">
+                    <img src="recipe.jpg" alt="Recipe Sharing">
+                    <h3>Recipe Sharing</h3>
+                    <p>A Recipe Sharing platform where users can share and discover new recipes.</p>
+                </div>
+            </div>
+        </section>
+        <section id="messages">
+            <h2>Messages</h2>
+            <div id="message-list"></div>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <section id="chatbot">
+            <h2>AI Chatbot</h2>
+            <div id="chatbot-container">
+                <!-- AI Chatbot -->
+            </div>
+        </section>
+    </main>
+    <script src="//code.tidio.co/your_tidio_code.js" async></script>
+    <script src="./script.js"></script>
+</body>
+</html>
